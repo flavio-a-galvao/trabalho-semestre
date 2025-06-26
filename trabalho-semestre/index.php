@@ -44,7 +44,7 @@ include 'produtos.php';
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="minis.php">Minis</a></li>
-              <li><a class="dropdown-item" href="grandes">Grandes</a></li>
+              <li><a class="dropdown-item" href="grandes.php">Grandes</a></li>
             </ul>
           </li>
         </ul>
