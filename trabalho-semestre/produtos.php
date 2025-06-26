@@ -56,5 +56,29 @@ $salgadoPequenos[
         'preco' => 0.90,
         'imagem' => 'imagens/mini-bolinha-queijo.png',
     ],
+    [
+        'nome' => 'Mini Coxinha de Carne',
+        'descricao' => 'Algum texto de exemplo para construir o conteúdo do card.',
+        'preco' => 0.90,
+        'imagem' => 'imagens/mini-coxinha-carne.png'
+    ],
+    [
+        'nome' => 'Mini Coxinha de Frango',
+        'descricao' => 'Algum texto de exemplo para construir o conteúdo do card.',
+        'preco' => 0.90,
+        'imagem' => 'imagens/mini-coxinha-frango.png'
+    ],
+    [
+        'nome' => 'Mini Traveseirinho de Carne',
+        'descricao' => 'Algum texto de exemplo para construir o conteúdo do card.',
+        'preco' => 0.90,
+        'imagem' => 'imagens/mini-traveseirinho-carne.png'
+    ],
+        [
+        'nome' => 'Mini Traveseirinho de Carne',
+        'descricao' => 'Algum texto de exemplo para construir o conteúdo do card.',
+        'preco' => 0.90,
+        'imagem' => 'imagens/mini-traveseirinho-carne.png'
+    ],
 ]
 ?>
