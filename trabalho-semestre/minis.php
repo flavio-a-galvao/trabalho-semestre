@@ -33,7 +33,7 @@ include 'produtos.php';
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contato.php">Contato</a>
@@ -54,9 +54,6 @@ include 'produtos.php';
 </nav>
 
 <main>
-
-  <img class="wallpaper" src="imagens/wallpaper2.jpg" alt="Descrição da imagem" width="100%">
-
   <h2 class="text-center" data-aos="flip-left">Entre em contato com a gente</h2>
 
   <div class="container" data-aos="flip-left">
@@ -65,7 +62,7 @@ include 'produtos.php';
     </a>
   </div>
 
-  <h2 class="text-center" data-aos="flip-left">Nosso cardapio</h2>
+  <h2 class="text-center" data-aos="flip-left">Nossos Minis Salgados</h2>
 
  <div class="card-container">
         <?php foreach ($salgadosPequenos as $salgado): ?>
