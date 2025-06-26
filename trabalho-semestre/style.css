@@ -22,6 +22,41 @@
   width: 31%;
 }
 
+.container {
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+}
+
+.whatsapp-button {
+    display: inline-flex; /* Permite alinhar o ícone e o texto */
+    align-items: center; /* Centraliza verticalmente o ícone e o texto */
+    padding: 15px 25px; /* Espaçamento interno */
+    background-color: #25D366; /* Cor do WhatsApp */
+    color: white; /* Cor do texto */
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    border-radius: 5px; /* Bordas arredondadas */
+    text-decoration: none; /* Remove o sublinhado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+    transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
+}
+
+.whatsapp-button i {
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+    font-size: 24px; /* Tamanho do ícone */
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E; /* Cor mais escura ao passar o mouse */
+    transform: scale(1.05); /* Aumenta ligeiramente o botão */
+}
+
+main{
+  h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .logo{
     width: 25%;

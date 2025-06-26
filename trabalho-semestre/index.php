@@ -6,9 +6,10 @@
   <title>Leila Pães e Salgados</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <nav class="navbar bg-body-tertiary fixed-top">
+  <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
 
     <img class="logo" src="imagens/logo.png" alt="">
@@ -45,7 +46,21 @@
 </nav>
 
 <main>
-  <img src="imagens/wallpaper.jpg" alt="">
+
+  <img class="wallpaper" src="imagens/wallpaper2.jpg" alt="Descrição da imagem" width="100%">
+
+  <h2 class="text-center">Entre em contato com a gente</h2>
+
+  <div class="container">
+    <a href="https://wa.me/5544998086959" class="whatsapp-button" target="_blank">
+      <i class="fab fa-whatsapp"></i> Entre em Contato
+    </a>
+  </div>
+
+  <h2 class="text-center">Nosso cardapio</h2>
+
+
+
 </main>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
