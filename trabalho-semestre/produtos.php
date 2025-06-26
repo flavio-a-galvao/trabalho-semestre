@@ -65,37 +65,37 @@ $salgadosGrandes = [
 $salgadosPequenos = [
     [
         'nome' => 'Mini Bolinha de Queijo',
-        'descricao' => 'Mini bolinha de queijo com masa comum, recheio de queijo, com o peso de 25g',
+        'descricao' => 'Mini bolinha de queijo com massa comum, recheio de queijo, com o peso de 25g',
         'preco' => 0.90,
         'imagem' => 'imagens/mini-bolinha-queijo.png',
     ],
     [
         'nome' => 'Mini Coxinha de Carne',
-        'descricao' => 'Mini coxinha de masa caseira, com recheio de carne moida, tempero caseiro, com o peso de 25g',
+        'descricao' => 'Mini coxinha de massa caseira, com recheio de carne moida, tempero caseiro, com o peso de 25g',
         'preco' => 0.90,
         'imagem' => 'imagens/mini-coxinha-carne.png',
     ],
     [
         'nome' => 'Mini Coxinha de Frango',
-        'descricao' => 'Mini coxinha de masa caseira, com recheio de frango e catupiry, com o peso de 25g',
+        'descricao' => 'Mini coxinha de massa caseira, com recheio de frango e catupiry, com o peso de 25g',
         'preco' => 0.90,
         'imagem' => 'imagens/mini-coxinha-frango.png',
     ],
     [
         'nome' => 'Mini Traveseirinho de Carne',
-        'descricao' => 'Algum texto de exemplo para construir o conteúdo do card',
+        'descricao' => 'Mini traveseirinho de massa caseira, com recheio de carne moida, tempero caseiro, com o peso de 25g',
         'preco' => 0.90,
         'imagem' => 'imagens/mini-traveseirinho-carne.png',
     ],
     [
         'nome' => 'Mini Traveseirinho de Presunto',
-        'descricao' => 'Algum texto de exemplo para construir o conteúdo do card',
+        'descricao' => 'Mini traveseirinho de massa caseira, com recheio de presunto e queijo, com o peso de 25g',
         'preco' => 0.90,
         'imagem' => 'imagens/mini-traveseirinho-presunto.png',
     ],
     [
         'nome' => 'Kibi com Queijo',
-        'descricao' => 'Algum texto de exemplo para construir o conteúdo do card',
+        'descricao' => 'Mini kibi feito com farinha de kibi, com recheio de queijo, com o peso de 25g',
         'preco' => 0.90,
         'imagem' => 'imagens/kibi.png',
     ],
