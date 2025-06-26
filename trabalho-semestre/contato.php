@@ -1,3 +1,33 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    $nome = $_POST['nome'] ?? '';
+    $email = $_POST['email'] ?? '';
+    $numero = $_POST['numero'] ?? '';
+    $mensagem = $_POST['mensagem'] ?? '';
+
+    $destino = "flavioaugusto.galvao@gmail.com";
+    $assunto = "Novo pedido do site - Leila Pães e Salgados";
+
+    $corpo = "Você recebeu um novo pedido:\n\n";
+    $corpo .= "Nome: $nome\n";
+    $corpo .= "E-mail: $email\n";
+    $corpo .= "Número: $numero\n";
+    $corpo .= "Mensagem: $mensagem\n";
+
+    $headers = "From: $email\r\n";
+    $headers .= "Reply-To: $email\r\n";
+    $headers .= "X-Mailer: PHP/" . phpversion();
+
+    if (mail($destino, $assunto, $corpo, $headers)) {
+        echo "<script>alert('Pedido enviado com sucesso!'); window.location.href = 'index.php';</script>";
+        exit;
+    } else {
+        echo "<script>alert('Erro ao enviar. Tente novamente.'); window.history.back();</script>";
+        exit;
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -49,55 +79,31 @@
 
 <main>
   <div class="container2">
-  <h2>Formulário de Pedido</h2>
-  <form id="pedidoForm" onsubmit="return validarPedido()">
-    <div class="form-group">
-      <label for="nome">Nome:</label>
-      <input type="text" id="nome" name="nome" required>
-    </div>
+    <h2>Formulário de Pedido</h2>
+    <form method="POST" action="">
+      <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+      </div>
 
-    <div class="form-group">
-      <label for="email">E-mail:</label>
-      <input type="email" id="email" name="email" required>
-    </div>
+      <div class="form-group">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
 
-    <div class="form-group">
-      <label for="numero">Número (somente dígitos):</label>
-      <input type="tel" id="numero" name="numero" required pattern="[0-9]{8,15}" maxlength="15" placeholder="Ex: 44998086959">
-    </div>
+      <div class="form-group">
+        <label for="numero">Número (somente dígitos):</label>
+        <input type="tel" id="numero" name="numero" required pattern="[0-9]{8,15}" maxlength="15" placeholder="Ex: 44998086959" />
+      </div>
 
-    <div class="form-group">
-      <label for="mensagem">Mensagem (opcional):</label>
-      <textarea id="mensagem" name="mensagem"></textarea>
-    </div>
+      <div class="form-group">
+        <label for="mensagem">Mensagem (opcional):</label>
+        <textarea id="mensagem" name="mensagem"></textarea>
+      </div>
 
-    <button class="botao" type="submit">Enviar Pedido</button>
-  </form>
-</div>
-
-
-    <script>
-  function validarPedido() {
-    const nome = document.getElementById('nome').value.trim();
-    const email = document.getElementById('email').value.trim();
-    const numero = document.getElementById('numero').value.trim();
-
-    if (!nome || !email || !numero) {
-      alert("Preencha todos os campos obrigatórios.");
-      return false;
-    }
-
-    const telefoneValido = /^[0-9]{8,15}$/.test(numero);
-    if (!telefoneValido) {
-      alert("Digite um número válido com apenas dígitos (mínimo 8, máximo 15).");
-      return false;
-    }
-
-    return true; // Permite envio se tudo estiver válido
-  }
-</script>
-
-
+      <button class="botao" type="submit">Enviar Pedido</button>
+    </form>
+  </div>
 </main>
 
 <footer class="footer">
