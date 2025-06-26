@@ -34,11 +34,11 @@
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Produtos
+              Salgados
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Pães</a></li>
-              <li><a class="dropdown-item" href="#">Salgados</a></li>
+              <li><a class="dropdown-item" href="#">Minis</a></li>
+              <li><a class="dropdown-item" href="#">Grandes</a></li>
             </ul>
           </li>
         </ul>
