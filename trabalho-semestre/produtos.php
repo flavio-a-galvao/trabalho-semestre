@@ -75,10 +75,16 @@ $salgadoPequenos[
         'imagem' => 'imagens/mini-traveseirinho-carne.png'
     ],
         [
-        'nome' => 'Mini Traveseirinho de Carne',
+        'nome' => 'Mini Traveseirinho de Presunto',
         'descricao' => 'Algum texto de exemplo para construir o conteúdo do card.',
         'preco' => 0.90,
-        'imagem' => 'imagens/mini-traveseirinho-carne.png'
+        'imagem' => 'imagens/mini-traveseirinho-presunto.png'
+    ],
+        [
+        'nome' => 'Kibi com Queijo',
+        'descricao' => 'Algum texto de exemplo para construir o conteúdo do card.',
+        'preco' => 0.90,
+        'imagem' => 'imagens/kibi.png'
     ],
 ]
 ?>
