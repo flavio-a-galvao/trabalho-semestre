@@ -61,7 +61,7 @@
     display: inline-flex; /* Permite alinhar o ícone e o texto */
     align-items: center; /* Centraliza verticalmente o ícone e o texto */
     padding: 10px 15px; /* Espaçamento interno */
-    background-color: #25D366; /* Cor do WhatsApp */
+    background-color: #f05757; /* Cor do WhatsApp */
     color: white; /* Cor do texto */
     font-size: 16px; /* Tamanho da fonte */
     font-weight: bold; /* Negrito */
@@ -75,8 +75,33 @@
 }
 
 .whatsapp-button:hover {
-    background-color: #128C7E; /* Cor mais escura ao passar o mouse */
+    background-color: #e47474; /* Cor mais escura ao passar o mouse */
     transform: scale(1.05); /* Aumenta ligeiramente o botão */
+}
+
+.footer {
+    margin-top: auto; /* Empurra o footer para o final da página */
+    background-color: #f05757; /* Cor de fundo do footer */
+    text-align: center; /* Centraliza o conteúdo */
+    padding: 20px; /* Espaçamento interno */
+}
+
+.footer-content {
+    display: flex; /* Usar flexbox para alinhar o texto e o ícone */
+    flex-direction: column; /* Alinha o texto e o ícone verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+.whatsapp-icon {
+    color: white; /* Cor do ícone */
+    font-size: 40px; /* Tamanho do ícone */
+    text-decoration: none; /* Remove o sublinhado */
+    margin-top: 10px; /* Espaço acima do ícone */
+    transition: transform 0.3s; /* Transição suave para o efeito de hover */
+}
+
+.whatsapp-icon:hover {
+    transform: scale(1.1); /* Aumenta o ícone ao passar o mouse */
 }
 
 main{
