@@ -67,10 +67,10 @@
 }
 
 .card-text {
-    height: 50px; /* Limita a altura da descrição */
-    overflow: hidden;
-    text-overflow: ellipsis;
     margin-bottom: 10px;
+    /* height: 50px; */         /* Comentado ou removido */
+    /* overflow: hidden; */     /* Comentado ou removido */
+    /* text-overflow: ellipsis; */ /* Comentado ou removido */
 }
 
 .card-price {

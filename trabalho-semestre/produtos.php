@@ -2,13 +2,13 @@
 $salgadosGrandes = [
     [
         'nome' => 'Coxinha de Carne',
-        'descricao' => 'Algum texto de exemplo para construir o conteúdo do card',
+        'descricao' => 'Coxinha de massa de mandioca, com recheio de carne moida e tempero da casa',
         'preco' => 7.00,
         'imagem' => 'imagens/coxinha-carne.png',
     ],
     [
         'nome' => 'Coxinha de Frango',
-        'descricao' => 'Algum texto de exemplo para construir o conteúdo do card',
+        'descricao' => 'Coxinha de massa de mandioca, com recheio de frango com catupiry',
         'preco' => 7.00,
         'imagem' => 'imagens/coxinha-de-frango.png',
     ],
