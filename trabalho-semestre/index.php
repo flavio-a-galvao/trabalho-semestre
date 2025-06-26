@@ -118,5 +118,41 @@ include 'produtos.php';
   <script>
     AOS.init();
   </script>
+    <!-- Aqui terminam seus outros scripts -->
+  <script src="js/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- 👇 ETAPA 1 COMEÇA AQUI -->
+  <div class="imagem-overlay" id="imagemOverlay">
+    <span class="fechar-imagem" id="fecharImagem">&times;</span>
+    <img id="imagemAmpliada" class="imagem-ampliada" src="" alt="Imagem ampliada">
+  </div>
+
+  <script>
+    document.querySelectorAll('.card-img-top').forEach(imagem => {
+      imagem.addEventListener('click', () => {
+        const src = imagem.getAttribute('src');
+        document.getElementById('imagemAmpliada').src = src;
+        document.getElementById('imagemOverlay').style.display = 'flex';
+      });
+    });
+
+    document.getElementById('fecharImagem').addEventListener('click', () => {
+      document.getElementById('imagemOverlay').style.display = 'none';
+    });
+
+    document.getElementById('imagemOverlay').addEventListener('click', (e) => {
+      if (e.target.id === 'imagemOverlay') {
+        document.getElementById('imagemOverlay').style.display = 'none';
+      }
+    });
+  </script>
+  <!-- 👆 ETAPA 1 TERMINA AQUI -->
+
+</body>
+</html>
+
 </body>
 </html>
