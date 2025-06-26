@@ -1,3 +1,9 @@
+<?php
+
+include 'produtos.php';
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -30,15 +36,15 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contato</a>
+            <a class="nav-link" href="contato.php">Contato</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Salgados
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Minis</a></li>
-              <li><a class="dropdown-item" href="#">Grandes</a></li>
+              <li><a class="dropdown-item" href="minis.php">Minis</a></li>
+              <li><a class="dropdown-item" href="grandes">Grandes</a></li>
             </ul>
           </li>
         </ul>
@@ -62,72 +68,38 @@
   <h2 class="text-center" data-aos="flip-left">Nosso cardapio</h2>
 
  <div class="card-container">
-        <div class="card" data-aos="flip-left">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagem do Card">
-            <div class="card-body">
-                <h5 class="card-title">Card 1</h5>
-                <p class="card-text">Algum texto de exemplo para construir o conteúdo do card.</p>
-                <p class="card-price">R$ 99,99</p>
-                <div class="container">
-                    <a href="https://wa.me/5544998086959" class="whatsapp-button" target="_blank">
-                        <i class="fab fa-whatsapp"></i> Entre em Contato
-                    </a>
+        <?php foreach ($salgadosGrandes as $salgado): ?>
+            <div class="card" data-aos="flip-left">
+                <img src="<?php echo $salgado['imagem']; ?>" class="card-img-top" alt="<?php echo $salgado['nome']; ?>">
+                <div class="card-body">
+                    <h5 class="card-title"><?php echo $salgado['nome']; ?></h5>
+                    <p class="card-text"><?php echo $salgado['descricao']; ?></p>
+                    <p class="card-price">R$ <?php echo number_format($salgado['preco'], 2, ',', '.'); ?></p>
+                    <div class="container">
+                        <a href="https://wa.me/5544998086959" class="whatsapp-button" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Entre em Contato
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="card" data-aos="flip-left">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagem do Card">
-            <div class="card-body">
-                <h5 class="card-title">Card 2</h5>
-                <p class="card-text">Algum texto de exemplo para construir o conteúdo do card.</p>
-                <p class="card-price">R$ 79,99</p>
-                <div class="container">
-                    <a href="https://wa.me/5544998086959" class="whatsapp-button" target="_blank">
-                        <i class="fab fa-whatsapp"></i> Entre em Contato
-                    </a>
+        <?php endforeach; ?>
+
+        <?php foreach ($salgadosPequenos as $salgado): ?>
+            <div class="card" data-aos="flip-left">
+                <img src="<?php echo $salgado['imagem']; ?>" class="card-img-top" alt="<?php echo $salgado['nome']; ?>">
+                <div class="card-body">
+                    <h5 class="card-title"><?php echo $salgado['nome']; ?></h5>
+                    <p class="card-text"><?php echo $salgado['descricao']; ?></p>
+                    <p class="card-price">R$ <?php echo number_format($salgado['preco'], 2, ',', '.'); ?></p>
+                    <div class="container">
+                        <a href="https://wa.me/5544998086959" class="whatsapp-button" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Entre em Contato
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="card" data-aos="flip-left">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagem do Card">
-            <div class="card-body">
-                <h5 class="card-title">Card 3</h5>
-                <p class="card-text">Algum texto de exemplo para construir o conteúdo do card.</p>
-                <p class="card-price">R$ 79,99</p>
-                <div class="container">
-                    <a href="https://wa.me/5544998086959" class="whatsapp-button" target="_blank">
-                        <i class="fab fa-whatsapp"></i> Entre em Contato
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="card" data-aos="flip-left">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagem do Card">
-            <div class="card-body">
-                <h5 class="card-title">Card 4</h5>
-                <p class="card-text">Algum texto de exemplo para construir o conteúdo do card.</p>
-                <p class="card-price">R$ 79,99</p>
-                <div class="container">
-                    <a href="https://wa.me/5544998086959" class="whatsapp-button" target="_blank">
-                        <i class="fab fa-whatsapp"></i> Entre em Contato
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="card" data-aos="flip-left">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagem do Card">
-            <div class="card-body">
-                <h5 class="card-title">Card 5</h5>
-                <p class="card-text">Algum texto de exemplo para construir o conteúdo do card.</p>
-                <p class="card-price">R$ 79,99</p>
-                <div class="container">
-                    <a href="https://wa.me/5544998086959" class="whatsapp-button" target="_blank">
-                        <i class="fab fa-whatsapp"></i> Entre em Contato
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
+        <?php endforeach; ?>
+  </div>
 
 </main>
 

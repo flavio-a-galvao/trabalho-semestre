@@ -1,7 +1,7 @@
 <?php
 $salgadosGrandes = [
     [
-        'nome' => 'Coxinha de Carne,
+        'nome' => 'Coxinha de Carne',
         'descricao' => 'Algum texto de exemplo para construir o conteúdo do card',
         'preco' => 7.00,
         'imagem' => 'imagens/coxinha-carne.png',
@@ -15,8 +15,8 @@ $salgadosGrandes = [
     [
         'nome' => 'Kibi com queijo',
         'descricao' => 'Algum texto de exemplo para construir o conteúdo do card',
-        'preco' => 7.00
-        'imagem' => 'imagens/kibi.png,
+        'preco' => 7.00,
+        'imagem' => 'imagens/kibi.png',
     ],
     [
         'nome' => 'Risoles de Carne',
@@ -61,7 +61,8 @@ $salgadosGrandes = [
         'imagem' => 'imagens/pastel-carne.png',
     ],
 ];
-$salgadoPequenos[
+
+$salgadosPequenos = [
     [
         'nome' => 'Mini Bolinha de Queijo',
         'descricao' => 'Algum texto de exemplo para construir o conteúdo do card',
@@ -72,31 +73,31 @@ $salgadoPequenos[
         'nome' => 'Mini Coxinha de Carne',
         'descricao' => 'Algum texto de exemplo para construir o conteúdo do card',
         'preco' => 0.90,
-        'imagem' => 'imagens/mini-coxinha-carne.png'
+        'imagem' => 'imagens/mini-coxinha-carne.png',
     ],
     [
         'nome' => 'Mini Coxinha de Frango',
         'descricao' => 'Algum texto de exemplo para construir o conteúdo do card',
         'preco' => 0.90,
-        'imagem' => 'imagens/mini-coxinha-frango.png'
+        'imagem' => 'imagens/mini-coxinha-frango.png',
     ],
     [
         'nome' => 'Mini Traveseirinho de Carne',
         'descricao' => 'Algum texto de exemplo para construir o conteúdo do card',
         'preco' => 0.90,
-        'imagem' => 'imagens/mini-traveseirinho-carne.png'
+        'imagem' => 'imagens/mini-traveseirinho-carne.png',
     ],
-        [
+    [
         'nome' => 'Mini Traveseirinho de Presunto',
         'descricao' => 'Algum texto de exemplo para construir o conteúdo do card',
         'preco' => 0.90,
-        'imagem' => 'imagens/mini-traveseirinho-presunto.png'
+        'imagem' => 'imagens/mini-traveseirinho-presunto.png',
     ],
-        [
+    [
         'nome' => 'Kibi com Queijo',
         'descricao' => 'Algum texto de exemplo para construir o conteúdo do card',
         'preco' => 0.90,
-        'imagem' => 'imagens/kibi.png'
+        'imagem' => 'imagens/kibi.png',
     ],
-]
+];
 ?>
