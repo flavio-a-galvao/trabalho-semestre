@@ -77,7 +77,7 @@ $salgadosPequenos = [
     ],
     [
         'nome' => 'Mini Coxinha de Frango',
-        'descricao' => 'Algum texto de exemplo para construir o conteúdo do card',
+        'descricao' => 'Mini coxinha de masa caseira, com recheio de frango e catupiry, com o peso de 25g',
         'preco' => 0.90,
         'imagem' => 'imagens/mini-coxinha-frango.png',
     ],
