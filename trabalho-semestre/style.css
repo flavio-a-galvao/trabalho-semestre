@@ -1,0 +1,29 @@
+.navbar.bg-body-tertiary {
+  background-color: #f05757!important; /* Cor de fundo do menu */
+}
+
+.offcanvas.offcanvas-end.show {
+  background-color: #f05757!important; /* Cor de fundo do menu */
+}
+
+.dropdown-menu.show{
+  background-color: #f05757!important; /* Cor de fundo do menu */
+}
+
+.dropdown-item:hover{
+  background-color: #e47474!important; /* Cor de fundo do menu */
+}
+
+.logo{
+  width: 6%;
+}
+
+.logo2{
+  width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+  .logo{
+    width: 25%;
+  }
+}
