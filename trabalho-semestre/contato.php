@@ -49,41 +49,54 @@
 
 <main>
   <div class="container2">
-        <h2>Formulário de Contato</h2>
-        <form id="contactForm" onsubmit="return validateForm()">
-            <div class="form-group">
-                <label for="name">Nome:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="phone">Número:</label>
-                <input type="tel" id="phone" name="phone" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Mensagem (opcional):</label>
-                <textarea id="message" name="message"></textarea>
-            </div>
-            <button class="botao" type="submit">Enviar</button>
-        </form>
+  <h2>Formulário de Pedido</h2>
+  <form id="pedidoForm" onsubmit="return validarPedido()">
+    <div class="form-group">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
     </div>
 
-    <script>
-        function validateForm() {
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const phone = document.getElementById('phone').value;
+    <div class="form-group">
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
 
-            if (!name || !email || !phone) {
-                alert("Por favor, preencha todos os campos obrigatórios.");
-                return false; // Impede o envio do formulário
-            }
-            return true; // Permite o envio do formulário
-        }
-    </script>
+    <div class="form-group">
+      <label for="numero">Número (somente dígitos):</label>
+      <input type="tel" id="numero" name="numero" required pattern="[0-9]{8,15}" maxlength="15" placeholder="Ex: 44998086959">
+    </div>
+
+    <div class="form-group">
+      <label for="mensagem">Mensagem (opcional):</label>
+      <textarea id="mensagem" name="mensagem"></textarea>
+    </div>
+
+    <button class="botao" type="submit">Enviar Pedido</button>
+  </form>
+</div>
+
+
+    <script>
+  function validarPedido() {
+    const nome = document.getElementById('nome').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const numero = document.getElementById('numero').value.trim();
+
+    if (!nome || !email || !numero) {
+      alert("Preencha todos os campos obrigatórios.");
+      return false;
+    }
+
+    const telefoneValido = /^[0-9]{8,15}$/.test(numero);
+    if (!telefoneValido) {
+      alert("Digite um número válido com apenas dígitos (mínimo 8, máximo 15).");
+      return false;
+    }
+
+    return true; // Permite envio se tudo estiver válido
+  }
+</script>
+
 
 </main>
 
