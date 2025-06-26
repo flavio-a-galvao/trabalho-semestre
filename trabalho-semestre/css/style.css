@@ -104,6 +104,58 @@
     transform: scale(1.1); /* Aumenta o ícone ao passar o mouse */
 }
 
+.container2 {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    padding-right: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.botao{
+  margin-left: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #f05757;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #e47474;
+}
+
+button:hover{
+  background-color: #e47474;
+}
+
 body {
   font-family: 'Montserrat', sans-serif !important; /* Aplica a fonte ao corpo do site */
 }
