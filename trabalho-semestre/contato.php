@@ -78,6 +78,10 @@
   </div>
 </main>
 
+<div class="mapa-container">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.8175900820747!2d-52.71145578896716!3d-24.801698908237224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f20005cdf2d627%3A0xb2e6e5b04f97fc1f!2sPR-364%2C%20Altamira%20do%20Paran%C3%A1%20-%20PR%2C%2085280-000!5e0!3m2!1spt-BR!2sbr!4v1750964995448!5m2!1spt-BR!2sbr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
 <footer class="footer">
     <div class="footer-content">
         <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
