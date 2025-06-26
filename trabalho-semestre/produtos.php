@@ -1,34 +1,60 @@
 <?php
-$produtos = [
+$salgadosGrandes = [
     [
-        'nome' => 'Card 1',
+        'nome' => 'Coxinha de Carne,
         'descricao' => 'Algum texto de exemplo para construir o conteúdo do card.',
-        'preco' => 99.99,
-        'imagem' => 'https://via.placeholder.com/150',
+        'preco' => 7.00,
+        'imagem' => 'imagens/coxinha-carne.png',
     ],
     [
-        'nome' => 'Card 2',
+        'nome' => 'Coxinha de Frango',
         'descricao' => 'Algum texto de exemplo para construir o conteúdo do card.',
-        'preco' => 79.99,
-        'imagem' => 'https://via.placeholder.com/150',
+        'preco' => 7.00,
+        'imagem' => 'imagens/coxinha-de-frango.png',
     ],
     [
-        'nome' => 'Card 3',
+        'nome' => 'Kibi com queijo',
         'descricao' => 'Algum texto de exemplo para construir o conteúdo do card.',
-        'preco' => 79.99,
-        'imagem' => 'https://via.placeholder.com/150',
+        'preco' => 7.00
+        'imagem' => 'imagens/kibi.png,
     ],
     [
-        'nome' => 'Card 4',
+        'nome' => 'Risoles de Carne',
         'descricao' => 'Algum texto de exemplo para construir o conteúdo do card.',
-        'preco' => 79.99,
-        'imagem' => 'https://via.placeholder.com/150',
+        'preco' => 7.00,
+        'imagem' => 'imagens/risoles-carne.png',
     ],
     [
-        'nome' => 'Card 5',
+        'nome' => 'Risoles de Frango',
         'descricao' => 'Algum texto de exemplo para construir o conteúdo do card.',
-        'preco' => 79.99,
-        'imagem' => 'https://via.placeholder.com/150',
+        'preco' => 7.00,
+        'imagem' => 'imagens/risoles-frango.png',
+    ],
+    [
+        'nome' => 'Risoles de Presunto',
+        'descricao' => 'Algum texto de exemplo para construir o conteúdo do card.',
+        'preco' => 7.00,
+        'imagem' => 'imagens/risoles-de-presunto.png',
+    ],
+    [
+        'nome' => 'Espetinho de Porco',
+        'descricao' => 'Algum texto de exemplo para construir o conteúdo do card.',
+        'preco' => 8.00,
+        'imagem' => 'imagens/espetinho.png',
+    ],
+    [
+        'nome' => 'Espetinho de Boi',
+        'descricao' => 'Algum texto de exemplo para construir o conteúdo do card.',
+        'preco' => 8.00,
+        'imagem' => 'imagens/espetinho.png',
     ],
 ];
+$salgadoPequenos[
+    [
+        'nome' => 'Mini Bolinha de Queijo',
+        'descricao' => 'Algum texto de exemplo para construir o conteúdo do card.',
+        'preco' => 0.90,
+        'imagem' => 'imagens/mini-bolinha-queijo.png',
+    ],
+]
 ?>
