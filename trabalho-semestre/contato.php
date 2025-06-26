@@ -1,32 +1,4 @@
-<?php
-if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    $nome = $_POST['nome'] ?? '';
-    $email = $_POST['email'] ?? '';
-    $numero = $_POST['numero'] ?? '';
-    $mensagem = $_POST['mensagem'] ?? '';
 
-    $destino = "flavioaugusto.galvao@gmail.com";
-    $assunto = "Novo pedido do site - Leila Pães e Salgados";
-
-    $corpo = "Você recebeu um novo pedido:\n\n";
-    $corpo .= "Nome: $nome\n";
-    $corpo .= "E-mail: $email\n";
-    $corpo .= "Número: $numero\n";
-    $corpo .= "Mensagem: $mensagem\n";
-
-    $headers = "From: $email\r\n";
-    $headers .= "Reply-To: $email\r\n";
-    $headers .= "X-Mailer: PHP/" . phpversion();
-
-    if (mail($destino, $assunto, $corpo, $headers)) {
-        echo "<script>alert('Pedido enviado com sucesso!'); window.location.href = 'index.php';</script>";
-        exit;
-    } else {
-        echo "<script>alert('Erro ao enviar. Tente novamente.'); window.history.back();</script>";
-        exit;
-    }
-}
-?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
