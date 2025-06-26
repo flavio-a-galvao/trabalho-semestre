@@ -2,7 +2,7 @@
 $salgadosGrandes = [
     [
         'nome' => 'Coxinha de Carne',
-        'descricao' => 'Coxinha de massa de mandioca, com recheio de carne moida e tempero da casa, com o peso de 190g',
+        'descricao' => 'Coxinha de massa de mandioca, com recheio de carne moida e tempero caseiro, com o peso de 190g',
         'preco' => 7.00,
         'imagem' => 'imagens/coxinha-carne.png',
     ],
@@ -20,7 +20,7 @@ $salgadosGrandes = [
     ],
     [
         'nome' => 'Risoles de Carne',
-        'descricao' => 'Risoles de massa caseira, com recheio de carne e tempero da casa, com o peso de 190g',
+        'descricao' => 'Risoles de massa caseira, com recheio de carne e tempero caseiro, com o peso de 190g',
         'preco' => 7.00,
         'imagem' => 'imagens/risoles-carne.png',
     ],
@@ -56,7 +56,7 @@ $salgadosGrandes = [
     ],
     [
         'nome' => 'Pastel de Carne',
-        'descricao' => 'Pastel de massa caseira, com recheio de carne moida, tempero da casa e qualquer adicional que pedir, com o peso de 190g',
+        'descricao' => 'Pastel de massa caseira, com recheio de carne moida, tempero caseiro e qualquer adicional que pedir, com o peso de 190g',
         'preco' => 8.00,
         'imagem' => 'imagens/pastel-carne.png',
     ],
@@ -71,7 +71,7 @@ $salgadosPequenos = [
     ],
     [
         'nome' => 'Mini Coxinha de Carne',
-        'descricao' => 'Algum texto de exemplo para construir o conteúdo do card',
+        'descricao' => 'Mini coxinha de masa caseira, com recheio de carne moida, tempero caseiro, com o peso de 25g',
         'preco' => 0.90,
         'imagem' => 'imagens/mini-coxinha-carne.png',
     ],
