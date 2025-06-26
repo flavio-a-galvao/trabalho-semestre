@@ -65,7 +65,7 @@
             <div class="card-body">
                 <h5 class="card-title">Card 1</h5>
                 <p class="card-text">Algum texto de exemplo para construir o conteúdo do card.</p>
-                <p class="card-price">R$ 99,99</p> <!-- Espaço para o preço -->
+                <p class="card-price">R$ 99,99</p>
                 <div class="container">
                     <a href="https://wa.me/5544998086959" class="whatsapp-button" target="_blank">
                         <i class="fab fa-whatsapp"></i> Entre em Contato
@@ -78,7 +78,7 @@
             <div class="card-body">
                 <h5 class="card-title">Card 2</h5>
                 <p class="card-text">Algum texto de exemplo para construir o conteúdo do card.</p>
-                <p class="card-price">R$ 79,99</p> <!-- Espaço para o preço -->
+                <p class="card-price">R$ 79,99</p>
                 <div class="container">
                     <a href="https://wa.me/5544998086959" class="whatsapp-button" target="_blank">
                         <i class="fab fa-whatsapp"></i> Entre em Contato
@@ -91,7 +91,7 @@
             <div class="card-body">
                 <h5 class="card-title">Card 3</h5>
                 <p class="card-text">Algum texto de exemplo para construir o conteúdo do card.</p>
-                <p class="card-price">R$ 79,99</p> <!-- Espaço para o preço -->
+                <p class="card-price">R$ 79,99</p>
                 <div class="container">
                     <a href="https://wa.me/5544998086959" class="whatsapp-button" target="_blank">
                         <i class="fab fa-whatsapp"></i> Entre em Contato
@@ -104,7 +104,7 @@
             <div class="card-body">
                 <h5 class="card-title">Card 4</h5>
                 <p class="card-text">Algum texto de exemplo para construir o conteúdo do card.</p>
-                <p class="card-price">R$ 79,99</p> <!-- Espaço para o preço -->
+                <p class="card-price">R$ 79,99</p>
                 <div class="container">
                     <a href="https://wa.me/5544998086959" class="whatsapp-button" target="_blank">
                         <i class="fab fa-whatsapp"></i> Entre em Contato
@@ -117,7 +117,7 @@
             <div class="card-body">
                 <h5 class="card-title">Card 5</h5>
                 <p class="card-text">Algum texto de exemplo para construir o conteúdo do card.</p>
-                <p class="card-price">R$ 79,99</p> <!-- Espaço para o preço -->
+                <p class="card-price">R$ 79,99</p>
                 <div class="container">
                     <a href="https://wa.me/5544998086959" class="whatsapp-button" target="_blank">
                         <i class="fab fa-whatsapp"></i> Entre em Contato
