@@ -104,6 +104,10 @@
     transform: scale(1.1); /* Aumenta o ícone ao passar o mouse */
 }
 
+body {
+  font-family: 'Montserrat', sans-serif !important; /* Aplica a fonte ao corpo do site */
+}
+
 main{
   h2{
     margin-top: 50px;
