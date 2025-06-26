@@ -48,6 +48,18 @@ $salgadosGrandes = [
         'preco' => 8.00,
         'imagem' => 'imagens/espetinho.png',
     ],
+    [
+        'nome' => 'Pastel de Presunto',
+        'descricao' => 'Algum texto de exemplo para construir o conteúdo do card.',
+        'preco' => 8.00,
+        'imagem' => 'imagens/pastel-presunto.png',
+    ],
+    [
+        'nome' => 'Pastel de Carne',
+        'descricao' => 'Algum texto de exemplo para construir o conteúdo do card.',
+        'preco' => 8.00,
+        'imagem' => 'imagens/pastel-carne.png',
+    ],
 ];
 $salgadoPequenos[
     [
